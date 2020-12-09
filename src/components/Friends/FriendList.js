@@ -2,7 +2,7 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
-import FriendListItem from './Friend';
+import FriendListItem from './FriendListItem';
 
 import s from './Friends.module.scss';
 
@@ -21,7 +21,7 @@ FriendListItem.propTypes = {
       isOnline: PropTypes.bool.isRequired,
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-    }),
+    })
   ).isRequired,
 };
 
