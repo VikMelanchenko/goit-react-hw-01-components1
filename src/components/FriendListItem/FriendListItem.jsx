@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from './Friends.module.scss';
+import s from '../FriendList/Friends.module.scss';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
