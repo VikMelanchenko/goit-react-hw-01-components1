@@ -2,17 +2,21 @@
   "name": "goit-react-hw-01-components1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vikmelanchenko.github.io/goit-react-hw-01-components1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/VikMelanchenko/goit-react-hw-01-components1",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

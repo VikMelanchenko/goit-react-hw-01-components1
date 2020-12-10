@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import s from './Transaction.module.scss';
 
-import TransactionItem from './TransactionItem';
+import TransactionItem from '../TransactionItem/TransactionItem';
 
 const TransactionHistory = ({ items }) => {
   return (
@@ -37,7 +37,7 @@ TransactionHistory.propTypes = {
       type: PropTypes.string.isRequired,
       amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
-    }),
+    })
   ),
 };
 export default TransactionHistory;

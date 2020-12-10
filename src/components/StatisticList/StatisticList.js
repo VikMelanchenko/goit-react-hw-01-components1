@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from './Statistics.module.scss';
+import s from '../Statistics/Statistics.module.scss';
 
 const StatisticList = ({ stats }) => {
   return (

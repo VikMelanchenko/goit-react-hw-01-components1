@@ -1,6 +1,6 @@
 import React from 'react';
 
-import StatisticList from './StatisticList';
+import StatisticList from '../StatisticList/StatisticList';
 
 import PropTypes from 'prop-types';
 
@@ -23,7 +23,7 @@ Statictics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    }),
+    })
   ),
 };
 
